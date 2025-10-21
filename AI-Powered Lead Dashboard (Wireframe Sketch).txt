@@ -1,0 +1,23 @@
++-------------------------------------------------------------+
+|                    AI-ENRICHED LEAD DASHBOARD              |
++-------------------------------------------------------------+
+| [ Upload Leads CSV ]  [ + New Lead ]  [ Export to CRM ]     |
++-------------------------------------------------------------+
+
+|  Enriched Leads Table                |   Lead Details & Actions     |
+|--------------------------------------|-----------------------------|
+| Name     | Email     | Score | Sent  | Jane Doe    | AI Score: 88 |
+|----------|-----------|-------|-------|-------------|--------------|
+| John Doe | ...       | 80    | Yes   | LinkedIn: ...| Send Email   |
+| ...      | ...       | ...   | No    | Templates:   | Edit         |
+|          |           |       |       | - Demo       | Assign       |
+|--------------------------------------|-----------------------------|
+
+|     Analytics & Insights                                   |
+|------------------------------------------------------------|
+| - # Leads Uploaded this week                               |
+| - % Deduplicated / Enriched                                |
+| - Outreach Open/Reply Rate                                 |
+| - Top Performing Email Templates (Bar Chart)               |
+| - Log: [Date] [User] [Action] [Lead]                       |
++------------------------------------------------------------+

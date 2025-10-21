@@ -1,0 +1,42 @@
++--------------------------+
+|  Data Input Sources      |---------------------------------+
+|   - CSV Upload           |                                 |
+|   - Web Scraped Leads    |                                 |
++--------------------------+                                 |
+          |                                                [User Portal/Dashboard]
+          v
++--------------------------+                                 |
+| Deduplication Service    |                                 |
+| - Fuzzy Email Matching   |                                 |
+| - LinkedIn Profile Merge |                                 |
++--------------------------+                                 |
+          |                                 +----------------+--------------------------+
+          v                                 |                |                          |
++--------------------------+                |     Lead Scoring Service                  |
+| Enrichment Service       |                | - ML/AI scoring by signals (intent, demo) |
+| - OpenAI API / heuristics|                | - Probability to convert                   |
+| - Fill company/job fields|                +----------------+--------------------------+
++--------------------------+                                 |
+          |                                                [API/Backend]
+          v
++--------------------------+                                 |
+| Outreach Generation      |                                 |
+| - GPT-powered email copy |                                 |
+| - Multi-language, CTA    |                                 |
++--------------------------+                                 |
+          |                                                   
+          v
++--------------------------+
+| Analytics Service        |
+| - Outreach success rates |
+| - Template performance   |
+| - Deduplication logs     |
++--------------------------+
+          |
+          v
++--------------------------+
+| Integrations             |
+| - Google Sheets/HubSpot  |
+| - Notion, CRM            |
++--------------------------+
+
